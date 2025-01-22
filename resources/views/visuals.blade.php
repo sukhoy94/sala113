@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="container my-5">
-        <div class="row">
+        <div class="row gx-4">
             <div class="col-md-6 mb-4" data-aos="fade-up">
                 <img src="{{ asset('images/photo1.jpg') }}" alt="Photo 1" class="img-fluid rounded">
             </div>
@@ -38,4 +38,5 @@
             </div>
         </div>
     </div>
+
 @endsection
