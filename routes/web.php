@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\RulesController;
 use Illuminate\Support\Facades\Route;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
@@ -24,8 +25,6 @@ Route::group(
             return view('pricing');
         })->name('pricing');
 
-        Route::get('/rules', function () {
-            return view('rules');
-        })->name('rules');
+        Route::get('/rules', [RulesController::class, 'index'])->name('rules');
     }
 );
