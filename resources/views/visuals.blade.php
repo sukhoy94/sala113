@@ -6,7 +6,7 @@
     <div class="container my-5">
         <div class="row gx-4">
             <div class="col-md-6 mb-4" data-aos="fade-up">
-                <img src="{{ asset('images/photo1.jpg') }}" alt="Photo 1" class="img-fluid rounded">
+                <img src="{{ asset('images/photo7.jpg') }}" alt="Photo 7" class="img-fluid rounded">
             </div>
 
             <div class="col-md-6 mb-4" data-aos="fade-up">
@@ -29,10 +29,10 @@
                 <img src="{{ asset('images/photo6.jpg') }}" alt="Photo 6" class="img-fluid rounded">
             </div>
 
-            <div class="col-md-6 mb-4" data-aos="fade-up">
-                <img src="{{ asset('images/photo7.jpg') }}" alt="Photo 7" class="img-fluid rounded">
-            </div>
 
+            <div class="col-md-6 mb-4" data-aos="fade-up">
+                <img src="{{ asset('images/photo1.jpg') }}" alt="Photo 1" class="img-fluid rounded">
+            </div>
             <div class="col-md-6 mb-4" data-aos="fade-up">
                 <img src="{{ asset('images/photo8.jpg') }}" alt="Photo 8" class="img-fluid rounded">
             </div>

@@ -4,9 +4,12 @@
         <!-- Logo i menu -->
         <div class="d-flex align-items-center">
             <!-- Logo -->
-            <a class="navbar-brand me-3" href="{{ route('visuals') }}">
-                <img src="{{ asset('images/logo.png') }}" alt="Sala113" height="40">
-            </a>
+            <!-- Ikona Instagrama (po środku) -->
+            <div class="text-center d-none d-lg-block">
+                <a href="https://www.instagram.com/sala113_lublin/" target="_blank" class="nav-link text-dark">
+                    <i class="fab fa-instagram fa-lg"></i>
+                </a>
+            </div>
             <!-- Menu -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,12 +38,10 @@
             </div>
         </div>
 
-        <!-- Ikona Instagrama (po środku) -->
-        <div class="text-center d-none d-lg-block">
-            <a href="https://www.instagram.com/sala113_lublin/" target="_blank" class="nav-link text-dark">
-                <i class="fab fa-instagram fa-lg"></i>
-            </a>
-        </div>
+        <a class="navbar-brand me-3" href="{{ route('visuals') }}">
+            <img src="{{ asset('images/logo.png') }}" alt="Sala113" height="40">
+        </a>
+
 
         <!-- Przełącznik języków (po prawej) -->
         <div class="d-flex">
