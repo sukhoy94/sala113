@@ -36,10 +36,6 @@
             <div class="col-md-6 mb-4" data-aos="fade-up">
                 <img src="{{ asset('images/photo8.jpg') }}" alt="Photo 8" class="img-fluid rounded">
             </div>
-
-            <div class="col-md-6 mb-4" data-aos="fade-up">
-                <img src="{{ asset('images/photo9.jpg') }}" alt="Photo 9" class="img-fluid rounded">
-            </div>
         </div>
     </div>
 @endsection

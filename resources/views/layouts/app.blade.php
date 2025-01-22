@@ -28,6 +28,15 @@
     @yield('content')
 </div>
 
+<footer class="bg-light text-center py-3">
+    <div class="container">
+        <p class="mb-0">
+            contact@dusha-fund.com |
+            <a href="https://www.instagram.com/sala113_lublin/" target="_blank" class="text-dark">Instagram</a>
+        </p>
+    </div>
+</footer>
+
 <!-- Bootstrap JS -->
 <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
