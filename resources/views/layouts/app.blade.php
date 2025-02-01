@@ -21,7 +21,14 @@
     <link
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #bbaa92;
+        }
+    </style>
 </head>
+
 <body>
 <!-- Navbar -->
 @include('partials.navbar')

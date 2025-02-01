@@ -29,7 +29,7 @@
                             Others
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="othersDropdown">
-                            <li><a class="dropdown-item" href="{{ route('equipment') }}">Sprzęt</a></li>
+{{--                            <li><a class="dropdown-item" href="{{ route('equipment') }}">Sprzęt</a></li>--}}
                             <li><a class="dropdown-item" href="{{ route('pricing') }}">Cennik</a></li>
                             <li><a class="dropdown-item" href="{{ route('rules') }}">Regulamin</a></li>
                         </ul>
