@@ -26,5 +26,9 @@ Route::group(
         })->name('pricing');
 
         Route::get('/rules', [RulesController::class, 'index'])->name('rules');
+
+        Route::get('/easter', function () {
+            return view('easter');
+        })->name('easter');
     }
 );

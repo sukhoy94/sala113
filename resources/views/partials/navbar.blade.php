@@ -23,6 +23,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('about') }}">About</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('easter') }}">Easter2025</a>
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="othersDropdown" role="button"
                            data-bs-toggle="dropdown" aria-expanded="false">
