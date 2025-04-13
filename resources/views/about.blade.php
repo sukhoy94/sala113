@@ -7,7 +7,7 @@
         <div class="row align-items-center w-100">
             <div class="col-md-6">
                 <p>
-                    {{ __('about113') }}
+                    {!! __('about113') !!}
                 </p>
             </div>
             <div class="col-md-6 text-center">
