@@ -34,7 +34,7 @@
                 <img src="{{ asset('images/home/photo1.jpg') }}" alt="Photo 1" class="img-fluid rounded">
             </div>
             <div class="col-md-6 mb-4" data-aos="fade-up">
-                <img src="{{ asset('images/home/photo8.jpg') }}" alt="Photo 8" class="img-fluid rounded">
+                <img src="{{ asset('images/home/photo9.jpg') }}" alt="Photo 9" class="img-fluid rounded">
             </div>
         </div>
     </div>
