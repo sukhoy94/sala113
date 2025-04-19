@@ -5,7 +5,7 @@
         <div class="d-flex align-items-center">
             <!-- Logo -->
             <!-- Ikona Instagrama (po środku) -->
-            <div class="text-center d-none d-lg-block">
+            <div class="text-center">
                 <a href="https://www.instagram.com/sala113_lublin/" target="_blank" class="nav-link text-dark">
                     <i class="fab fa-instagram fa-lg"></i>
                 </a>
