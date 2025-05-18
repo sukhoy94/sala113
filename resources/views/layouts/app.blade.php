@@ -44,6 +44,11 @@
             contact@dusha-fund.com |
             <a href="https://www.instagram.com/sala113_lublin/" target="_blank" class="text-dark">Instagram</a>
         </p>
+        <p>
+            <a href="{{ route('privacy') }}">
+                {{ __('privacy.title') }}
+            </a>
+        </p>
     </div>
 </footer>
 

@@ -30,5 +30,9 @@ Route::group(
         Route::get('/easter', function () {
             return view('easter');
         })->name('easter');
+
+        Route::get('/privacy', function () {
+            return view('privacy');
+        })->name('privacy');
     }
 );
