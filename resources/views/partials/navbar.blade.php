@@ -27,7 +27,7 @@
                         <a class="nav-link" href="{{ route('easter') }}">Easter2025</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="othersDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="#" id="othersDropdown"r  role="button"
                            data-bs-toggle="dropdown" aria-expanded="false">
                             Others
                         </a>
