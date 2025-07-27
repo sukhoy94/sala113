@@ -1,66 +1,112 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Sala113.pl
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A business card website for Sala113 - a venue located in Lublin, Poland.
 
-## About Laravel
+## Overview
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+This is a simple, multilingual business card website built with Laravel that showcases Sala113, providing essential information about the venue to visitors in multiple languages.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Features
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- **Multilingual Support**: Available in 3 languages:
+  - Polish (pl)
+  - Ukrainian (uk) 
+  - English (en)
+- **Responsive Design**: Optimized for desktop and mobile devices
+- **Business Information**: Essential details about Sala113 venue
+- **Laravel Framework**: Built with modern PHP framework for reliability and maintainability
 
-## Learning Laravel
+## Requirements
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- PHP >= 8.1
+- Composer
+- Node.js & NPM
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Installation
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/sala113.pl.git
+cd sala113.pl
+```
 
-## Laravel Sponsors
+2. Install PHP dependencies:
+```bash
+composer install
+```
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+3. Install Node.js dependencies:
+```bash
+npm install
+```
 
-### Premium Partners
+4. Copy environment file and configure:
+```bash
+cp .env.example .env
+```
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+5. Generate application key:
+```bash
+php artisan key:generate
+```
+
+6. Configure your database settings in `.env` file
+
+7. Run database migrations:
+```bash
+php artisan migrate
+```
+
+8. Build assets:
+```bash
+npm run build
+```
+
+## Usage
+
+### Development
+Start the development server:
+```bash
+php artisan serve
+```
+
+The website will be available at `http://localhost:8000`
+
+### Production
+Configure your web server to point to the `public` directory and ensure proper file permissions are set.
+
+## Language Support
+
+The website automatically detects user's preferred language or allows manual language selection. Translation files are located in the `resources/lang` directory:
+
+- `resources/lang/pl.json` - Polish translations
+- `resources/lang/uk.json` - Ukrainian translations  
+- `resources/lang/en.json` - Russian translations
+
+## Project Structure
+
+```
+sala113.pl/
+├── app/                    # Application logic
+├── resources/
+│   ├── views/             # Blade templates
+│   ├── lang/              # Translation files
+│   └── assets/            # CSS, JS, images
+├── public/                # Public web directory
+├── routes/                # Route definitions
+└── config/                # Configuration files
+```
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+This is a business website project. If you notice any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+This project is proprietary software for Sala113 venue.
+
+## Contact
+
+Author: Andrii Sukhoi
+
+You can contact me via my email: andrii.sukhoi@gmail.com
